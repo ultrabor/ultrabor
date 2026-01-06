@@ -51,13 +51,13 @@ Android app for tracking cryptocurrencies in real-time
 
 ### 🔐 [User Management API](https://github.com/ultrabor/user-api)
 RESTful API with Clean Architecture
-- **Tech**: Go, PostgreSQL, Docker
-- **Features**: CRUD operations, middleware, JWT auth, unit tests
+- **Tech**: Go, PostgreSQL
+- **Features**: CRUD operations, middleware
 
-### 📝 [Task Tracker CLI](https://github.com/ultrabor/task-cli)
-Command-line task management tool
-- **Tech**: Go, Cobra, JSON storage
-- **Features**: Create, update, filter tasks with colorful terminal output
+### 📝 [GRPC Orders](https://github.com/ultrabor/grpc-orders)
+gRPC microservice for order management
+- **Tech**: Go, gRPC
+- **Features**: Create, GetById, List
 
 ---
 
