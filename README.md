@@ -35,9 +35,9 @@ Telegram bot for expense tracking with an AI agent
 - 🚧 *Being refactored: cleaner `internal/` structure, DTOs, prompts out of code*
 
 ### 🔐 [Go User API](https://github.com/ultrabor/go-user-api)
-REST API on the standard library
-- **Tech**: Go (`net/http`), PostgreSQL, `slog`
-- **Features**: handlers → services → repository layers, middleware, CRUD, pagination, PostgreSQL and in-memory storage
+REST API for user management
+- **Tech**: Go, Gin, PostgreSQL, `slog`
+- **Features**: delivery → services → storage layers, logging middleware, graceful shutdown, CRUD, pagination and filters, PostgreSQL and in-memory storage
 
 ### 📦 [gRPC Orders](https://github.com/ultrabor/grpc-orders)
 gRPC service for order management
