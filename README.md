@@ -30,9 +30,9 @@ Backend for a small-business management system: wholesale and retail trade acros
 - 🚧 *Next*: purchases, sales, transfers between locations, debt tracking
 
 ### 💰 [Finance AI Bot](https://github.com/ultrabor/finance-ai-bot)
-Telegram bot for expense tracking with an AI agent
-- **Tech**: Go, Telegram Bot API, LLM
-- 🚧 *Being refactored: cleaner `internal/` structure, DTOs, prompts out of code*
+Family expense tracker: a family member writes "coffee 350" to a Telegram bot, an AI agent extracts amount, category and date via tool calling and saves the expense
+- **Tech**: Go, Telegram Bot API, OpenAI-compatible LLM, PostgreSQL (pgx), goose, OpenAPI, Docker Compose
+- **Features**: agent tools for add, list and delete, web panel for the head of the family, any OpenAI-compatible provider (Groq, OpenAI, OpenRouter, Ollama), unit, integration and agent eval tests
 
 ### 🔐 [Go User API](https://github.com/ultrabor/go-user-api)
 REST API for user management
